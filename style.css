@@ -1,0 +1,330 @@
+body {
+    height: auto;
+    width: auto;
+    background: linear-gradient(-45deg, #391a81, #1c3eac, #3a1e6e, #4a5bee);
+    background-size: 400% 400%;
+    animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+/* 
+@-webkit-keyframes slide-in-blurred-top {
+    0% {
+        -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+        transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+        -webkit-transform-origin: 50% 0%;
+        transform-origin: 50% 0%;
+        -webkit-filter: blur(40px);
+        filter: blur(40px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+        transform: translateY(0) scaleY(1) scaleX(1);
+        -webkit-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+        -webkit-filter: blur(0);
+        filter: blur(0);
+        opacity: 1;
+    }
+}
+@keyframes slide-in-blurred-top {
+    0% {
+        -webkit-transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+        transform: translateY(-1000px) scaleY(2.5) scaleX(0.2);
+        -webkit-transform-origin: 50% 0%;
+        transform-origin: 50% 0%;
+        -webkit-filter: blur(40px);
+        filter: blur(40px);
+        opacity: 0;
+    }
+    100% {
+        -webkit-transform: translateY(0) scaleY(1) scaleX(1);
+        transform: translateY(0) scaleY(1) scaleX(1);
+        -webkit-transform-origin: 50% 50%;
+        transform-origin: 50% 50%;
+        -webkit-filter: blur(0);
+        filter: blur(0);
+        opacity: 1;
+    }
+} */
+
+#text {
+    margin-top: 20px;
+    margin-left: 700px;
+    width: 100px;
+    font-size: 150px;
+    font-family: omegle;
+    text-shadow: 0px 0px 7px blueviolet;
+}
+
+
+
+#animate__zagadka {
+    font-size: 40px;
+    border-radius: 20px;
+    font-family: omegle;
+    margin-left: 750px;
+    padding: 50px;
+    position: relative;
+    color: rgb(248, 105, 212);
+    text-shadow: 2px 2px 3px black;
+    animation: fadeInLeft;
+    animation-iteration-count: 1;
+    animation-duration: 2s;
+}
+
+
+
+#hide {
+    font-size: 20px;
+    color: blueviolet;
+    margin-left: 15px; 
+    margin-top: 15px;
+    display: none;
+    font-family: bellota;
+}
+
+
+#animate__show {
+    width: 220px;
+    height: 200px;
+    border-radius: 10%;
+    margin-left: 800px;
+    background-color: blanchedalmond;
+    transition: width 1s;
+    box-shadow:  0px 0px 7px blueviolet;
+    animation: fadeInLeft;
+    animation-iteration-count: 1;
+    animation-duration: 4s;
+    
+}
+
+
+
+
+
+#animate__show:hover #hide {
+    background-color: transparent;
+    display: block;
+    animation: jackInTheBox;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+}
+
+/* ``````````````````````````````````````````*/
+
+#hide2 {
+    font-size: 18px;
+    margin-left: 15px; 
+    margin-top: 15px;
+    display: none;
+    color: blueviolet;
+    font-family: bellota;
+}
+
+#animate__show2 {
+    width: 220px;
+    height: 150px;
+    border-radius: 10%;
+    margin-left: 800px;
+    background-color: blanchedalmond;
+    transition: width 1s;
+    box-shadow:  0px 0px 7px blueviolet;
+    animation: fadeInLeft;
+    animation-iteration-count: 1;
+    animation-duration: 4s;
+    
+}
+
+
+
+#animate__show2:hover #hide2 {
+    background-color: transparent;
+    display: block;
+    animation: jackInTheBox;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+}
+
+/* ``````````````````````````````````````````*/
+
+#hide3 {
+    font-size: 18px;
+    margin-left: 15px;
+    margin-top: 15px;
+    color: blueviolet;
+    display: none;
+    font-family: bellota;
+}
+
+#animate__show3 {
+    width: 220px;
+    height: 150px;
+    border-radius: 10%;
+    margin-left: 800px;
+    background-color: blanchedalmond;
+    transition: width 1s;
+    box-shadow:  0px 0px 7px blueviolet;
+    animation: fadeInLeft;
+    animation-iteration-count: 1;
+    animation-duration: 4s;
+    
+}
+
+
+
+#animate__show3:hover #hide3 {
+    background-color: transparent;
+    display: block;
+    animation: jackInTheBox;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+}
+
+/* ``````````````````````````````````````````*/
+
+#hide4 {
+    font-size: 16px;
+    margin-left: 15px;
+    margin-top: 15px;
+    color: blueviolet;
+    display: none;
+    font-family: bellota;
+}
+
+#animate__show4 {
+    width: 230px;
+    height: 250px;
+    border-radius: 10%;
+    margin-left: 800px;
+    background-color: blanchedalmond;
+    transition: width 1s;
+    box-shadow:  0px 0px 7px blueviolet;
+    animation: fadeInLeft;
+    animation-iteration-count: 1;
+    animation-duration: 4s;
+    
+}
+
+
+
+#animate__show4:hover #hide4 {
+    background-color: transparent;
+    display: block;
+    animation: jackInTheBox;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+}
+
+
+/* ``````````````````````````````````````````*/
+
+#hide5 {
+    font-size: 18px;
+    margin-left: 15px;
+    color: blueviolet;
+    margin-top: 15px;
+    display: none;
+    font-family: bellota;
+}
+
+#animate__show5 {
+    width: 220px;
+    height: 330px;
+    border-radius: 10%;
+    margin-left: 800px;
+    background-color: blanchedalmond;
+    transition: width 1s;
+    box-shadow:  0px 0px 7px blueviolet;
+    animation: fadeInLeft;
+    animation-iteration-count: 1;
+    animation-duration: 4s;
+    
+}
+
+
+#animate__show5:hover #hide5 {
+    background-color: transparent;
+    display: block;
+    animation: jackInTheBox;
+    animation-iteration-count: 1;
+    animation-duration: 3s;
+}
+
+
+@keyframes background-color {
+    from {
+        background-color: blueviolet;
+    }
+    
+    to {
+        background-color: blanchedalmond;
+    }
+}
+
+@font-face {
+    font-family: omegle;
+    src: url(fonts/OMEGLE.otf)
+}
+
+
+@font-face {
+    font-family: bellota;
+    src: url(fonts/Bellota-Bold.otf)
+}
+
+@font-face {
+    font-family: bang;
+    src: url(fonts/Bangers-Regular.ttf)
+}
+
+.button {
+    font-family: bellota;
+    background-color: blanchedalmond;
+    font-size: 20px;
+    border-radius: 20%;
+    margin-left: 800px;
+    box-shadow:  0px 0px 7px blueviolet;
+    color:brown;
+    animation: fadeInLeft;
+    animation-iteration-count: 1;
+    animation-duration: 4s;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: rgb(255, 255, 255);
+}
+
+/* - - - */
+
+.button2 {
+    font-family: bellota;
+    background-color: blanchedalmond;
+    font-size: 20px;
+    border-radius: 20%;
+    margin-left: 800px;
+    box-shadow:  0px 0px 7px blueviolet;
+    color:brown;
+    animation: fadeInTopRight;
+    margin-top: 20px;
+    animation-duration: 2s;
+    animation-iteration-count: 1;
+    margin-bottom: 20px;
+}
+
+.button2:hover {
+    background-color: rgb(255, 136, 0);
+}
